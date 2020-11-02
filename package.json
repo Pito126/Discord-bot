@@ -1,0 +1,20 @@
+{
+  "name": "onlytestbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pito126",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "discord.js": "^12.3.1",
+    "embed": "0.0.1",
+    "minecraft-server-util": "^3.0.4",
+    "opusscript": "0.0.7",
+    "request": "^2.88.2",
+    "ytdl-core": "^3.2.2"
+  }
+}

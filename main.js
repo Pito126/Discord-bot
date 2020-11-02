@@ -72,4 +72,4 @@ switch(args[0]) {
 }
 });
 
-client.login('NzUwMzY3OTI1MzY5NzAwMzcy.X05glg._tkQIIuIuRiqBFxdFwqLu2IA5jo');
+client.login('');

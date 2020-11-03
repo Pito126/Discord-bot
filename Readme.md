@@ -5,5 +5,5 @@ Simple you wrote ;;poll [your text]
 # What the bot will do 
 When you type ;;poll [your text] bot will retype [your text]
 delete your message and add ✅ and ❌
-# What language ?
-I used node.js
+# What langugae ?
+JS

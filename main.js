@@ -61,7 +61,7 @@ switch(args[0]){
   message.delete();
   break;
 }
-    //  Making poll //
+    //  Making a simple poll //
 switch(args[0]) {
 
   case 'poll':

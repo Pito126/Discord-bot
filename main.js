@@ -20,6 +20,7 @@ client.on('message', message=>{
 
   let args = message.content.substring(PREFIX.length).split(" ")
 
+ // Give you info about you and server // 
   switch(args[0]){
     case 'Info':
         const embed = new MessageEmbed()
@@ -35,7 +36,7 @@ client.on('message', message=>{
         break;
 }
 
-
+   // Give you commands info //
 switch(args[0]){
   case 'help':
       const embed = new MessageEmbed()
@@ -60,6 +61,7 @@ switch(args[0]){
   message.delete();
   break;
 }
+    //  Making poll //
 switch(args[0]) {
 
   case 'poll':

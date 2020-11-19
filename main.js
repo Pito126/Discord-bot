@@ -46,7 +46,20 @@ switch(args[0]){
       .setFooter('Enjoy The server');
     message.channel.send(embed);
       break;
-}     
+}
+    // Gives you id and username //
+    switch(args[0]){
+  case 'id':
+    const embed = new MessageEmbed()
+    .setColor()
+    .addFields(
+    { name: 'Tvůj Nickname', value: `**${message.author.username}**`, inline: true },
+    { name: 'Tvé ID', value: `${message.author.id}`, inline: true },
+  )
+  message.author.send(embed);
+  message.delete();
+  break;
+}
 switch(args[0]) {
 
   case 'poll':

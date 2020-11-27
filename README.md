@@ -1,4 +1,4 @@
-# Crator
+# Creator
 Pito126
 # Language
 JS

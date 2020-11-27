@@ -54,8 +54,8 @@ switch(args[0]){
     const embed = new MessageEmbed()
     .setColor()
     .addFields(
-    { name: 'Tvůj Nickname', value: `**${message.author.username}**`, inline: true },
-    { name: 'Tvé ID', value: `${message.author.id}`, inline: true },
+    { name: 'Your Nickname', value: `**${message.author.username}**`, inline: true },
+    { name: 'Your ID', value: `${message.author.id}`, inline: true },
   )
   message.author.send(embed);
   message.delete();

@@ -3,17 +3,22 @@ const { Client, MessageEmbed, MessageReaction, Message } = require('discord.js')
 const request = require('request');
 const client = new Client();
 
+// Your bot prefix //
 const PREFIX = (';;');
 
-
+// Few informations //
 var poll1 = '**Create a simple poll**'
 var info = '**Give you information about server and you**'
 
 client.on('ready', () => {
-    console.log('BOT Jaime je online!');
+  //  State of your bot //
+    console.log('First bot is online!');
+    // Show your bot activity //
     client.user.setActivity(';;help', { type: 'PLAYING'}).catch(console.error);
+    // Here you can change picture //
     client.user.setAvatar('https://media.discordapp.net/attachments/751566782057414806/751566842803519509/80af300d9c63a59a3e3479e299dbfdb9.jpg').catch(console.error);
-    client.user.setUsername('Jaime').catch(console.error);
+    // Here you can rename your bot //
+    client.user.setUsername('FirstBot').catch(console.error);
 });
 
 client.on('message', message=>{
@@ -87,4 +92,8 @@ switch(args[0]) {
 }
 });
 
+// Add here your bot token //
+
 client.login('');
+
+// When you want start bot, open terminal and type "node ." //

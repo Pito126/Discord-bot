@@ -94,6 +94,6 @@ switch(args[0]) {
 
 // Add here your bot token //
 
-client.login('');
+client.login('YOUR_TOKEN_HERE');
 
 // When you want start bot, open terminal and type "node ." //
